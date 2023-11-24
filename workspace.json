@@ -1,0 +1,530 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "modBlock",
+        "id": "nOfB1xooyQ1R5bd{g[ZX",
+        "x": 10,
+        "y": 10,
+        "inputs": {
+          "RULES": {
+            "block": {
+              "type": "ruleBlock",
+              "id": "}$,rS~8+efEMs;hVH*gI",
+              "extraState": {
+                "isOngoingEvent": false
+              },
+              "fields": {
+                "NAME": "initialiseMCOM",
+                "EVENTTYPE": "OnGameModeStarted"
+              },
+              "inputs": {
+                "ACTIONS": {
+                  "block": {
+                    "type": "SetVariable",
+                    "id": "}{m-|NtSnTXwqmMX1i~t",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "variableReferenceBlock",
+                          "id": "UvlK:^KyRj#j3.m+g0qF",
+                          "extraState": {
+                            "isObjectVar": false
+                          },
+                          "fields": {
+                            "OBJECTTYPE": "Global",
+                            "VAR": {
+                              "id": "ZHG_W]_9nx+[)sq;Tfr^"
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "Number",
+                          "id": "dq6CXAF4uNT(s*`qvGHJ",
+                          "fields": {
+                            "NUM": 10
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "SetCapturePointOwner",
+                        "id": ".oHIcaKdE4*E0~id%Ye8",
+                        "inputs": {
+                          "VALUE-0": {
+                            "block": {
+                              "type": "GetCapturePoint",
+                              "id": "Pbr}#JO0cqm32s^CCadZ",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "MCOMsItem",
+                                    "id": "@_v*lF-hFI.u~,kaTKK,",
+                                    "fields": {
+                                      "VALUE-0": "MCOMs",
+                                      "VALUE-1": "A"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "VALUE-1": {
+                            "block": {
+                              "type": "GetTeamId",
+                              "id": "TIt;Sf!V_P!K:+qCPQr*",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": ":dBFmQB,$P.0M*vp?7(k",
+                                    "fields": {
+                                      "NUM": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "SetCapturePointOwner",
+                            "id": "[Ky+?.N^DQk|@!7{l0RU",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "GetCapturePoint",
+                                  "id": "n]~bkGy`yzf.tTEXx,YJ",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "MCOMsItem",
+                                        "id": "W;G?)(#fd9Z;ZX`mGQ?K",
+                                        "fields": {
+                                          "VALUE-0": "MCOMs",
+                                          "VALUE-1": "D"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "GetTeamId",
+                                  "id": "a0]#9`*#o{$Ju%g1@Pbe",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": "6FMQK}l4${W%uPjYpOT3",
+                                        "fields": {
+                                          "NUM": 2
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "Teleport",
+                                "id": "=xovbJ,p,WWUtw@skqE$",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "GetCapturePoint",
+                                      "id": "B#tGy(6bMDyv58xx#nq-",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "MCOMsItem",
+                                            "id": "UifL]b6V{Mvk(a5tX5p=",
+                                            "fields": {
+                                              "VALUE-0": "MCOMs",
+                                              "VALUE-1": "A"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "VALUE-1": {
+                                    "block": {
+                                      "type": "CreateVector",
+                                      "id": "0HWCfz#@fN|T/_UIKXm!",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "{afR]$`76q/*%yyEIJo;",
+                                            "fields": {
+                                              "NUM": 8
+                                            }
+                                          }
+                                        },
+                                        "VALUE-1": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "5.*#bU~yu-H!nuIEk$:t",
+                                            "fields": {
+                                              "NUM": 105
+                                            }
+                                          }
+                                        },
+                                        "VALUE-2": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "(mxaR4K`G,8SS:svTyW(",
+                                            "fields": {
+                                              "NUM": 752
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "VALUE-2": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": "Q:5hgrDSS~?^29~rqrW]",
+                                      "fields": {
+                                        "NUM": 0
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "Teleport",
+                                    "id": "dIf)AzAK4}GyTRE2I=UA",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "GetCapturePoint",
+                                          "id": "`lKsKG?0}N5wdYw|]UnW",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "MCOMsItem",
+                                                "id": "~f6}],).MpvcgO#wd/jx",
+                                                "fields": {
+                                                  "VALUE-0": "MCOMs",
+                                                  "VALUE-1": "D"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "VALUE-1": {
+                                        "block": {
+                                          "type": "CreateVector",
+                                          "id": "=-wXib;pG.6/IsKx7dqL",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "Number",
+                                                "id": "^@C7%Z-FpE%,5m%H7fJo",
+                                                "fields": {
+                                                  "NUM": 22
+                                                }
+                                              }
+                                            },
+                                            "VALUE-1": {
+                                              "block": {
+                                                "type": "Number",
+                                                "id": "[1xvq!Ma,|us543mdgb7",
+                                                "fields": {
+                                                  "NUM": 105
+                                                }
+                                              }
+                                            },
+                                            "VALUE-2": {
+                                              "block": {
+                                                "type": "Number",
+                                                "id": "qnP?Gi@q}h=]+cDVs?Yn",
+                                                "fields": {
+                                                  "NUM": 742
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "VALUE-2": {
+                                        "block": {
+                                          "type": "Number",
+                                          "id": "PwQ;R_!V5Jz6F{i*Z2?m",
+                                          "fields": {
+                                            "NUM": 0
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "next": {
+                                      "block": {
+                                        "type": "SetMCOMFuseTime",
+                                        "id": "8dJ[){{[.N6!R?4a[Tqm",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "GetCapturePoint",
+                                              "id": "d-k^gwxv]5$$%q9|b)=M",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "MCOMsItem",
+                                                    "id": "v2v!WJ*}Ky)7J;2rb^KY",
+                                                    "fields": {
+                                                      "VALUE-0": "MCOMs",
+                                                      "VALUE-1": "A"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "VALUE-1": {
+                                            "block": {
+                                              "type": "Number",
+                                              "id": "=7H#pi++?#Hqq.Ji;RC?",
+                                              "fields": {
+                                                "NUM": 10
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "next": {
+                                          "block": {
+                                            "type": "SetMCOMFuseTime",
+                                            "id": "d3`=;jCv]cQ=:)~RWz~A",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "GetCapturePoint",
+                                                  "id": "paoAeI%/sm:2RtuzWsd1",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "MCOMsItem",
+                                                        "id": "[YMD#e2Cp=!!Bps+.2c3",
+                                                        "fields": {
+                                                          "VALUE-0": "MCOMs",
+                                                          "VALUE-1": "D"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "VALUE-1": {
+                                                "block": {
+                                                  "type": "Number",
+                                                  "id": "zMm@s|wD)#otxJ7iXI(g",
+                                                  "fields": {
+                                                    "NUM": 10
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "EnableObjective",
+                                                "id": "P[K:!R=K+tAJ@NGKVH3o",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "GetCapturePoint",
+                                                      "id": "P)/.P_P|tjLvQREO4A_{",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "MCOMsItem",
+                                                            "id": "ecJOP@V*y(zRlwRLM{L7",
+                                                            "fields": {
+                                                              "VALUE-0": "MCOMs",
+                                                              "VALUE-1": "A"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "VALUE-1": {
+                                                    "block": {
+                                                      "type": "Boolean",
+                                                      "id": "bw0~~yZck{*M/B1X`1PR",
+                                                      "fields": {
+                                                        "BOOL": "TRUE"
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "next": {
+                                                  "block": {
+                                                    "type": "EnableObjective",
+                                                    "id": "EJo%2SSwKbrA-11fF/Pu",
+                                                    "inputs": {
+                                                      "VALUE-0": {
+                                                        "block": {
+                                                          "type": "GetCapturePoint",
+                                                          "id": "1s~n0RAYI5YZLRuxfxS(",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "MCOMsItem",
+                                                                "id": "(sA]V;@_VC%N[t^DX-56",
+                                                                "fields": {
+                                                                  "VALUE-0": "MCOMs",
+                                                                  "VALUE-1": "D"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "VALUE-1": {
+                                                        "block": {
+                                                          "type": "Boolean",
+                                                          "id": "`pPtb*{PFAkCxR#I:d5L",
+                                                          "fields": {
+                                                            "BOOL": "TRUE"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "ruleBlock",
+                  "id": "db)TxOiZT%ku.M-_Q4O*",
+                  "extraState": {
+                    "isOngoingEvent": false
+                  },
+                  "fields": {
+                    "NAME": "testToSeeIfArmIsReset",
+                    "EVENTTYPE": "OnMCOMArmed"
+                  },
+                  "inputs": {
+                    "ACTIONS": {
+                      "block": {
+                        "type": "Wait",
+                        "id": "6T8j)8b+0!i:H?bPT{SE",
+                        "inputs": {
+                          "VALUE-0": {
+                            "block": {
+                              "type": "Number",
+                              "id": "/P[LUeo:YyhE_GDkG[8l",
+                              "fields": {
+                                "NUM": 5
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "EnableObjective",
+                            "id": ",4jLn{]L7CWmH..oHAdM",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "EventMCOM",
+                                  "id": "V7s,WRtsYM0^-Z-t}yJI"
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "Boolean",
+                                  "id": "KyA=Ao?{bNw=7q/H1gNI",
+                                  "fields": {
+                                    "BOOL": "FALSE"
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "Wait",
+                                "id": "p7DVd%-tNh7xqr~P,C1f",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": "ys52^@i08ZsPqXkFjL,R",
+                                      "fields": {
+                                        "NUM": 1
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "EnableObjective",
+                                    "id": "%D9n4C}3*j*YnLd?9PeW",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "EventMCOM",
+                                          "id": "08yZ.uBO-LCxG#H2{{9q"
+                                        }
+                                      },
+                                      "VALUE-1": {
+                                        "block": {
+                                          "type": "Boolean",
+                                          "id": "/{QA/!;7jk;;4|wM//?M",
+                                          "fields": {
+                                            "BOOL": "TRUE"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "fuseTime",
+      "id": "ZHG_W]_9nx+[)sq;Tfr^",
+      "type": "Global"
+    }
+  ]
+}
