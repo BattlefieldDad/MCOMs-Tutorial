@@ -1,0 +1,2028 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "modBlock",
+        "id": "nOfB1xooyQ1R5bd{g[ZX",
+        "x": -1428,
+        "y": -153,
+        "inputs": {
+          "RULES": {
+            "block": {
+              "type": "ruleBlock",
+              "id": ".=[W6U0irbqex[iV;^@K",
+              "extraState": {
+                "isOngoingEvent": false
+              },
+              "fields": {
+                "NAME": "New Rule",
+                "EVENTTYPE": "OnGameModeStarted"
+              },
+              "inputs": {
+                "ACTIONS": {
+                  "block": {
+                    "type": "SetVariable",
+                    "id": "ja]Ur`=~rkbaHuzu0Ibj",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "variableReferenceBlock",
+                          "id": "IY8QMpJ]GXpjYmHeTn6W",
+                          "extraState": {
+                            "isObjectVar": false
+                          },
+                          "fields": {
+                            "OBJECTTYPE": "Global",
+                            "VAR": {
+                              "id": ";[?H$53Z`2tcgE(VMJ#|"
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "EmptyArray",
+                          "id": "k@@yZcS.sUbQ-jB*.1O`"
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "SetVariableAtIndex",
+                        "id": "5$uu#C|dWnmJWrG^Ch?X",
+                        "inputs": {
+                          "VALUE-0": {
+                            "block": {
+                              "type": "variableReferenceBlock",
+                              "id": "3!z/HJT+MqEEZ]K)=23|",
+                              "extraState": {
+                                "isObjectVar": false
+                              },
+                              "fields": {
+                                "OBJECTTYPE": "Global",
+                                "VAR": {
+                                  "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                }
+                              }
+                            }
+                          },
+                          "VALUE-1": {
+                            "block": {
+                              "type": "Number",
+                              "id": "x@@RmcpNZGvi0eKZcP?1",
+                              "fields": {
+                                "NUM": 0
+                              }
+                            }
+                          },
+                          "VALUE-2": {
+                            "block": {
+                              "type": "CreateVector",
+                              "id": "Gf_n+V21qWgXvY?]oD$n",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": ":RigW3X:[^C-l6wCIE|H",
+                                    "fields": {
+                                      "NUM": -10
+                                    }
+                                  }
+                                },
+                                "VALUE-1": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": "/Kb~,`_koRqG_|5_mYrQ",
+                                    "fields": {
+                                      "NUM": 105
+                                    }
+                                  }
+                                },
+                                "VALUE-2": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": "IV}(o:8,#;A2Gc)skbWz",
+                                    "fields": {
+                                      "NUM": 752
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "SetVariableAtIndex",
+                            "id": "}XWTmC@4{Yx{8^.l:nJ`",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "variableReferenceBlock",
+                                  "id": "L1-PMv~DJt5)l0Q@3aWc",
+                                  "extraState": {
+                                    "isObjectVar": false
+                                  },
+                                  "fields": {
+                                    "OBJECTTYPE": "Global",
+                                    "VAR": {
+                                      "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                    }
+                                  }
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "hfq$A_@Fy/gU0^faNu(k",
+                                  "fields": {
+                                    "NUM": 1
+                                  }
+                                }
+                              },
+                              "VALUE-2": {
+                                "block": {
+                                  "type": "CreateVector",
+                                  "id": "?1RatRCW(BQ{kLCmXDPW",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": "}MU$z9oK4QL6#TtSEQQr",
+                                        "fields": {
+                                          "NUM": -10
+                                        }
+                                      }
+                                    },
+                                    "VALUE-1": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": ":PJw!}m?x||q*:A(N63j",
+                                        "fields": {
+                                          "NUM": 105
+                                        }
+                                      }
+                                    },
+                                    "VALUE-2": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": "[#Fl}?0ecCN@jiR-o[2s",
+                                        "fields": {
+                                          "NUM": 753
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "SetVariableAtIndex",
+                                "id": ":`e/`OE0z2wX~SptP5#^",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "variableReferenceBlock",
+                                      "id": "+kLQH:Afuog-*T+9(!Yi",
+                                      "extraState": {
+                                        "isObjectVar": false
+                                      },
+                                      "fields": {
+                                        "OBJECTTYPE": "Global",
+                                        "VAR": {
+                                          "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "VALUE-1": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": ")3WsqV)`kOU.+)zwNCXW",
+                                      "fields": {
+                                        "NUM": 2
+                                      }
+                                    }
+                                  },
+                                  "VALUE-2": {
+                                    "block": {
+                                      "type": "CreateVector",
+                                      "id": ";}mR08^/55;)-Mt^`|_(",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "lEh#m8H-0Yz?Y=6#eCMA",
+                                            "fields": {
+                                              "NUM": -10
+                                            }
+                                          }
+                                        },
+                                        "VALUE-1": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "aTdi|3@gBqN@Cs}_4BFs",
+                                            "fields": {
+                                              "NUM": 105
+                                            }
+                                          }
+                                        },
+                                        "VALUE-2": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "tSCu*zMyJKUO^|KcKD`b",
+                                            "fields": {
+                                              "NUM": 754
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "SetVariableAtIndex",
+                                    "id": "vp+GLPOzBr|yc~d|ATV6",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "variableReferenceBlock",
+                                          "id": ".Xo7bsi)O,*n@/8qBbas",
+                                          "extraState": {
+                                            "isObjectVar": false
+                                          },
+                                          "fields": {
+                                            "OBJECTTYPE": "Global",
+                                            "VAR": {
+                                              "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "VALUE-1": {
+                                        "block": {
+                                          "type": "Number",
+                                          "id": "y{tPon?/MYn14lnlj=b1",
+                                          "fields": {
+                                            "NUM": 3
+                                          }
+                                        }
+                                      },
+                                      "VALUE-2": {
+                                        "block": {
+                                          "type": "CreateVector",
+                                          "id": "0N.e;=.S5hYSVbCs$)e~",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "Number",
+                                                "id": "np.8tn[%fQsUIa!Q[ED#",
+                                                "fields": {
+                                                  "NUM": -11
+                                                }
+                                              }
+                                            },
+                                            "VALUE-1": {
+                                              "block": {
+                                                "type": "Number",
+                                                "id": "U21q(]ll$P)*U?DEb^I9",
+                                                "fields": {
+                                                  "NUM": 105
+                                                }
+                                              }
+                                            },
+                                            "VALUE-2": {
+                                              "block": {
+                                                "type": "Number",
+                                                "id": "9I;lsrugbg;8.=cftv*n",
+                                                "fields": {
+                                                  "NUM": 752
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "next": {
+                                      "block": {
+                                        "type": "SetVariableAtIndex",
+                                        "id": "0~SrXrw?6#L7a({f-a#p",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "variableReferenceBlock",
+                                              "id": "5.CWV*!e%j^z){Cdc,xG",
+                                              "extraState": {
+                                                "isObjectVar": false
+                                              },
+                                              "fields": {
+                                                "OBJECTTYPE": "Global",
+                                                "VAR": {
+                                                  "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "VALUE-1": {
+                                            "block": {
+                                              "type": "Number",
+                                              "id": ".QL];Rnz7)5q:#[+33l6",
+                                              "fields": {
+                                                "NUM": 4
+                                              }
+                                            }
+                                          },
+                                          "VALUE-2": {
+                                            "block": {
+                                              "type": "CreateVector",
+                                              "id": "PU-i+I:kDdGRwx8:r?;F",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "b?EG3wt9j71Mbg;1}heD",
+                                                    "fields": {
+                                                      "NUM": -11
+                                                    }
+                                                  }
+                                                },
+                                                "VALUE-1": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "9Po-]cRV:pI;]vO7[?xc",
+                                                    "fields": {
+                                                      "NUM": 105
+                                                    }
+                                                  }
+                                                },
+                                                "VALUE-2": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "BpqF{]Rrn`9*E1JBhUSp",
+                                                    "fields": {
+                                                      "NUM": 753
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "next": {
+                                          "block": {
+                                            "type": "SetVariableAtIndex",
+                                            "id": "FsZVgIl{f{JZEsq:2.~(",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "variableReferenceBlock",
+                                                  "id": "i`uG*ZyXcKDvVg;Y=169",
+                                                  "extraState": {
+                                                    "isObjectVar": false
+                                                  },
+                                                  "fields": {
+                                                    "OBJECTTYPE": "Global",
+                                                    "VAR": {
+                                                      "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "VALUE-1": {
+                                                "block": {
+                                                  "type": "Number",
+                                                  "id": ":w2*LoC5me=c;Tj|h-n$",
+                                                  "fields": {
+                                                    "NUM": 5
+                                                  }
+                                                }
+                                              },
+                                              "VALUE-2": {
+                                                "block": {
+                                                  "type": "CreateVector",
+                                                  "id": "{{cyy4*9LS_Bb)jw{33H",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": "ol5wTDR{nt4ybbVJ^N$?",
+                                                        "fields": {
+                                                          "NUM": -11
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-1": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": "4mZS8mN=m(:sv;+@AXm)",
+                                                        "fields": {
+                                                          "NUM": 105
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-2": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": ".Nsq:U2mGr6_wpRP~9tI",
+                                                        "fields": {
+                                                          "NUM": 754
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "SetVariableAtIndex",
+                                                "id": "H{waVDsAR:T~DDRnp,~%",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "variableReferenceBlock",
+                                                      "id": "k%8qgQ.UgFh.OKSKjO74",
+                                                      "extraState": {
+                                                        "isObjectVar": false
+                                                      },
+                                                      "fields": {
+                                                        "OBJECTTYPE": "Global",
+                                                        "VAR": {
+                                                          "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "VALUE-1": {
+                                                    "block": {
+                                                      "type": "Number",
+                                                      "id": "GCZ6%!mrt8{||=:bYRII",
+                                                      "fields": {
+                                                        "NUM": 6
+                                                      }
+                                                    }
+                                                  },
+                                                  "VALUE-2": {
+                                                    "block": {
+                                                      "type": "CreateVector",
+                                                      "id": "[/{1lW[.6G9S%=-80EV@",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": "$Ldkx|EuyH)pBdYG@Ed.",
+                                                            "fields": {
+                                                              "NUM": -12
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": "s4ihl$e$!C3M)N_uP8(o",
+                                                            "fields": {
+                                                              "NUM": 105
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-2": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": "[]SX=xRF|@*mM|tec(~,",
+                                                            "fields": {
+                                                              "NUM": 753
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "next": {
+                                                  "block": {
+                                                    "type": "SetVariableAtIndex",
+                                                    "id": "M~ToqsmV76wI$VYLO,%J",
+                                                    "inputs": {
+                                                      "VALUE-0": {
+                                                        "block": {
+                                                          "type": "variableReferenceBlock",
+                                                          "id": "cok]iZ~C$iY3K$?Y1P0E",
+                                                          "extraState": {
+                                                            "isObjectVar": false
+                                                          },
+                                                          "fields": {
+                                                            "OBJECTTYPE": "Global",
+                                                            "VAR": {
+                                                              "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "VALUE-1": {
+                                                        "block": {
+                                                          "type": "Number",
+                                                          "id": "ZEg8_r!,d1!Q##T5aKev",
+                                                          "fields": {
+                                                            "NUM": 7
+                                                          }
+                                                        }
+                                                      },
+                                                      "VALUE-2": {
+                                                        "block": {
+                                                          "type": "CreateVector",
+                                                          "id": "cFNF:dJ(j7{X]UglIq3`",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "Number",
+                                                                "id": ")9-yVd0CBoaO[8SC0v,S",
+                                                                "fields": {
+                                                                  "NUM": -12
+                                                                }
+                                                              }
+                                                            },
+                                                            "VALUE-1": {
+                                                              "block": {
+                                                                "type": "Number",
+                                                                "id": "n?H|w/VBB+Jj9qt%lsAg",
+                                                                "fields": {
+                                                                  "NUM": 105
+                                                                }
+                                                              }
+                                                            },
+                                                            "VALUE-2": {
+                                                              "block": {
+                                                                "type": "Number",
+                                                                "id": "mTFOv/=Zktpi{k;lqgU[",
+                                                                "fields": {
+                                                                  "NUM": 754
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "ruleBlock",
+                  "id": "b{9tW/]74:?QwjMPsm`D",
+                  "extraState": {
+                    "isOngoingEvent": false
+                  },
+                  "fields": {
+                    "NAME": "enableAllThoseMCOMS",
+                    "EVENTTYPE": "OnGameModeStarted"
+                  },
+                  "inputs": {
+                    "ACTIONS": {
+                      "block": {
+                        "type": "ForVariable",
+                        "id": "hbm5@V):o-9~pftoHqa3",
+                        "inputs": {
+                          "VALUE-0": {
+                            "block": {
+                              "type": "variableReferenceBlock",
+                              "id": "~IWi2(fj+fCn+vR^J(V(",
+                              "extraState": {
+                                "isObjectVar": false
+                              },
+                              "fields": {
+                                "OBJECTTYPE": "Global",
+                                "VAR": {
+                                  "id": "ZkzvNdrB#}n!/Nu}98R+"
+                                }
+                              }
+                            }
+                          },
+                          "VALUE-1": {
+                            "block": {
+                              "type": "Number",
+                              "id": ";.3KX0DHe1y#aKYf[8/0",
+                              "fields": {
+                                "NUM": 0
+                              }
+                            }
+                          },
+                          "VALUE-2": {
+                            "block": {
+                              "type": "CountOf",
+                              "id": "+*YDmk3Y,[L:8TBL0KEV",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "AllMCOMs",
+                                    "id": "82@bAz!n?64^/0hP-kUm"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "VALUE-3": {
+                            "block": {
+                              "type": "Number",
+                              "id": "b-i=rc+_U@:V4?HfV;`%",
+                              "fields": {
+                                "NUM": 1
+                              }
+                            }
+                          },
+                          "DO": {
+                            "block": {
+                              "type": "EnableObjective",
+                              "id": "q3KBH5[F_x6Qf}zM8rVb",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "ValueInArray",
+                                    "id": "5hU]2bs*[/3Iim,gJ1Py",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "AllMCOMs",
+                                          "id": "xon6Kn+ZICKPCXj0?3.d"
+                                        }
+                                      },
+                                      "VALUE-1": {
+                                        "block": {
+                                          "type": "GetVariable",
+                                          "id": ".~]KE/o6=l(F}~m:8],O",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "variableReferenceBlock",
+                                                "id": "Y|bj18q1SCgR=`K`hoPl",
+                                                "extraState": {
+                                                  "isObjectVar": false
+                                                },
+                                                "fields": {
+                                                  "OBJECTTYPE": "Global",
+                                                  "VAR": {
+                                                    "id": "ZkzvNdrB#}n!/Nu}98R+"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "VALUE-1": {
+                                  "block": {
+                                    "type": "Boolean",
+                                    "id": "NA[6:.]8=w3+f}oNCxs2",
+                                    "fields": {
+                                      "BOOL": "TRUE"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "SetVariable",
+                            "id": "k^8lDApf2((T:g*,RaY|",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "variableReferenceBlock",
+                                  "id": "z.bjPku)(:LTp!$-sd|u",
+                                  "extraState": {
+                                    "isObjectVar": false
+                                  },
+                                  "fields": {
+                                    "OBJECTTYPE": "Global",
+                                    "VAR": {
+                                      "id": "q/o?dQ?%@|yWvxMBZrQz"
+                                    }
+                                  }
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "344@$yhVj]YK}O:M$IE;",
+                                  "fields": {
+                                    "NUM": 1
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "ruleBlock",
+                      "id": "+uUB3l+@phKWuMpDXP57",
+                      "extraState": {
+                        "isOngoingEvent": false
+                      },
+                      "fields": {
+                        "NAME": "New Rule",
+                        "EVENTTYPE": "OnPlayerDeployed"
+                      },
+                      "inputs": {
+                        "ACTIONS": {
+                          "block": {
+                            "type": "Teleport",
+                            "id": "g0IMkv*9VS*(^[mZM|X5",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "EventPlayer",
+                                  "id": "{dof#*B,6H,r:38d@K62"
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "CreateVector",
+                                  "id": "}7)9LuA_Ucc5*q8e;[V8",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": ";c?OJv,6{~Iz-LApeqci",
+                                        "fields": {
+                                          "NUM": 8
+                                        }
+                                      }
+                                    },
+                                    "VALUE-1": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": "OTevw+uQb_F@1YAl,t%v",
+                                        "fields": {
+                                          "NUM": 105
+                                        }
+                                      }
+                                    },
+                                    "VALUE-2": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": ":sQbp~/!HDIx7+J*GGF|",
+                                        "fields": {
+                                          "NUM": 752
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "VALUE-2": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "gRxc}ktiuD*M3C0|P!iK",
+                                  "fields": {
+                                    "NUM": 0
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "While",
+                                "id": "fk(%LDd7U1RtyaZ)~Z,B",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "GetSoldierState",
+                                      "id": ";K{=d0SrdOKcnX}c,pHH",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "EventPlayer",
+                                            "id": "/s,cinD[9(^i0(L3q^[i"
+                                          }
+                                        },
+                                        "VALUE-1": {
+                                          "block": {
+                                            "type": "SoldierStateBoolItem",
+                                            "id": "g+$Y0~u}!9UeEH!7Iqx^",
+                                            "fields": {
+                                              "VALUE-0": "SoldierStateBool",
+                                              "VALUE-1": "IsAlive"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "DO": {
+                                    "block": {
+                                      "type": "ForVariable",
+                                      "id": "LM]W^FGBvtB9OonnC;:/",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "variableReferenceBlock",
+                                            "id": "$2;mb@vlAQG=.iEn[,wp",
+                                            "extraState": {
+                                              "isObjectVar": false
+                                            },
+                                            "fields": {
+                                              "OBJECTTYPE": "Global",
+                                              "VAR": {
+                                                "id": "ZkzvNdrB#}n!/Nu}98R+"
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "VALUE-1": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "[O0z?.PlISN-KrRGv3@V",
+                                            "fields": {
+                                              "NUM": 0
+                                            }
+                                          }
+                                        },
+                                        "VALUE-2": {
+                                          "block": {
+                                            "type": "CountOf",
+                                            "id": "W2L,ERkAmZLT?c]ib;J-",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "AllMCOMs",
+                                                  "id": "%7DwO}rj)#V;X2:_^n8m"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "VALUE-3": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "kU6FS3lL=1YW}#GvmO/E",
+                                            "fields": {
+                                              "NUM": 1
+                                            }
+                                          }
+                                        },
+                                        "DO": {
+                                          "block": {
+                                            "type": "SetVariableAtIndex",
+                                            "id": "d-SG2eYP_D,Mu.)_!j0?",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "variableReferenceBlock",
+                                                  "id": "Jqd$*)apd[_fZpi`A[xa",
+                                                  "extraState": {
+                                                    "isObjectVar": false
+                                                  },
+                                                  "fields": {
+                                                    "OBJECTTYPE": "Global",
+                                                    "VAR": {
+                                                      "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "VALUE-1": {
+                                                "block": {
+                                                  "type": "GetVariable",
+                                                  "id": "j/UnnP(7k1!8BFcJs3VZ",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "variableReferenceBlock",
+                                                        "id": "g)!|MF6TzhA/lRtgQsQ{",
+                                                        "extraState": {
+                                                          "isObjectVar": false
+                                                        },
+                                                        "fields": {
+                                                          "OBJECTTYPE": "Global",
+                                                          "VAR": {
+                                                            "id": "ZkzvNdrB#}n!/Nu}98R+"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "VALUE-2": {
+                                                "block": {
+                                                  "type": "Add",
+                                                  "id": "IKN;3ey|)Xh-zUkY?`V0",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "ValueInArray",
+                                                        "id": "UE_9RsqtqHs!tkqZMd^#",
+                                                        "inputs": {
+                                                          "VALUE-0": {
+                                                            "block": {
+                                                              "type": "GetVariable",
+                                                              "id": "i;fO,NxUN=e.t{KroH#0",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "variableReferenceBlock",
+                                                                    "id": "g;Iu%kR7n%%^Q=bMupV%",
+                                                                    "extraState": {
+                                                                      "isObjectVar": false
+                                                                    },
+                                                                    "fields": {
+                                                                      "OBJECTTYPE": "Global",
+                                                                      "VAR": {
+                                                                        "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "VALUE-1": {
+                                                            "block": {
+                                                              "type": "GetVariable",
+                                                              "id": "M@ZH_[Z(FYVFz(|=2#py",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "variableReferenceBlock",
+                                                                    "id": "2yefF}86Z5!tU!M^%J!?",
+                                                                    "extraState": {
+                                                                      "isObjectVar": false
+                                                                    },
+                                                                    "fields": {
+                                                                      "OBJECTTYPE": "Global",
+                                                                      "VAR": {
+                                                                        "id": "ZkzvNdrB#}n!/Nu}98R+"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-1": {
+                                                      "block": {
+                                                        "type": "CreateVector",
+                                                        "id": "^#_#bFmi}g-{9+1[5386",
+                                                        "inputs": {
+                                                          "VALUE-0": {
+                                                            "block": {
+                                                              "type": "Number",
+                                                              "id": "*z7W$Ky-{erw8~z*`JHm",
+                                                              "fields": {
+                                                                "NUM": 0
+                                                              }
+                                                            }
+                                                          },
+                                                          "VALUE-1": {
+                                                            "block": {
+                                                              "type": "Number",
+                                                              "id": "s(l;zZe6mHqb]]kDvma=",
+                                                              "fields": {
+                                                                "NUM": 0
+                                                              }
+                                                            }
+                                                          },
+                                                          "VALUE-2": {
+                                                            "block": {
+                                                              "type": "Number",
+                                                              "id": "I8fC%QwQ:`QQbvbb~jY8",
+                                                              "fields": {
+                                                                "NUM": 0.1
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "Teleport",
+                                                "id": "K?+nu8]|P[3L5FIkn.5Z",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "ValueInArray",
+                                                      "id": "Lg:E^m+%=w^#e!e4~/_S",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "AllMCOMs",
+                                                            "id": "/YZ`B!dV^zBOi`}.4M*Y"
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "GetVariable",
+                                                            "id": "UTx-tz(}Y$/%GSeyNu=9",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "variableReferenceBlock",
+                                                                  "id": "rZn~tw_S8Q=Gco/XN{!y",
+                                                                  "extraState": {
+                                                                    "isObjectVar": false
+                                                                  },
+                                                                  "fields": {
+                                                                    "OBJECTTYPE": "Global",
+                                                                    "VAR": {
+                                                                      "id": "ZkzvNdrB#}n!/Nu}98R+"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "VALUE-1": {
+                                                    "block": {
+                                                      "type": "ValueInArray",
+                                                      "id": "/g8XPMwZZKjMQ;n_(bxr",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "GetVariable",
+                                                            "id": "d9p!M#=;Zm|Asr|%mh85",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "variableReferenceBlock",
+                                                                  "id": "T/4Warf@cb{_!@bhG??)",
+                                                                  "extraState": {
+                                                                    "isObjectVar": false
+                                                                  },
+                                                                  "fields": {
+                                                                    "OBJECTTYPE": "Global",
+                                                                    "VAR": {
+                                                                      "id": ";[?H$53Z`2tcgE(VMJ#|"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "GetVariable",
+                                                            "id": "xDZfjZA3TOa#Iq-sKj7s",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "variableReferenceBlock",
+                                                                  "id": "aenCb4G(%SX##T.$Zy2x",
+                                                                  "extraState": {
+                                                                    "isObjectVar": false
+                                                                  },
+                                                                  "fields": {
+                                                                    "OBJECTTYPE": "Global",
+                                                                    "VAR": {
+                                                                      "id": "ZkzvNdrB#}n!/Nu}98R+"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "VALUE-2": {
+                                                    "block": {
+                                                      "type": "Number",
+                                                      "id": "[BTx~f4gaF^QoH7[pQK:",
+                                                      "fields": {
+                                                        "NUM": 0
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "Wait",
+                                          "id": "JKmCfOnSrZBAPAH8X8_2",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "Number",
+                                                "id": "@A/db|aVlT2I9EU}jo}g",
+                                                "fields": {
+                                                  "NUM": 0.1
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "ruleBlock",
+        "id": "AiLBiH*jiJ:hhEL8})d+",
+        "x": -1456,
+        "y": 1686,
+        "extraState": {
+          "isOngoingEvent": false
+        },
+        "fields": {
+          "NAME": "spinThoseMCOMS",
+          "EVENTTYPE": "OnPlayerDeployed"
+        },
+        "inputs": {
+          "ACTIONS": {
+            "block": {
+              "type": "If",
+              "id": "=Y?i-qDJ-7WBTVp?rUG/",
+              "extraState": {},
+              "inputs": {
+                "VALUE-0": {
+                  "block": {
+                    "type": "IsCurrentMap",
+                    "id": "u%jhOwx)5@6F=k_B{%g!",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "MapsItem",
+                          "id": "}kmk.Lc)7tW4y+~Ki4D-",
+                          "fields": {
+                            "VALUE-0": "Maps",
+                            "VALUE-1": "Orbital"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "DO": {
+                  "block": {
+                    "type": "Teleport",
+                    "id": "g34T54|*Ha++:`.KVG:;",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "GetCapturePoint",
+                          "id": "(HDTbW]icvABz+B7U4/V",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "MCOMsItem",
+                                "id": "tX|ikQ$7NYU5N64z+,aV",
+                                "fields": {
+                                  "VALUE-0": "MCOMs",
+                                  "VALUE-1": "A"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "CreateVector",
+                          "id": "f3[f9[QPR}nnH+.Yr:4.",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "Number",
+                                "id": "9G))RRaQkRD2f~jC%(?;",
+                                "fields": {
+                                  "NUM": 8
+                                }
+                              }
+                            },
+                            "VALUE-1": {
+                              "block": {
+                                "type": "Number",
+                                "id": "U#kiV,?kr,re+7p;l-lg",
+                                "fields": {
+                                  "NUM": 105
+                                }
+                              }
+                            },
+                            "VALUE-2": {
+                              "block": {
+                                "type": "Number",
+                                "id": "]#EzUERO}#![44w2WX.a",
+                                "fields": {
+                                  "NUM": 752
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-2": {
+                        "block": {
+                          "type": "Number",
+                          "id": "Y3xN~T=s?v2(*z}{uvSo",
+                          "fields": {
+                            "NUM": 0
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "Teleport",
+                        "id": "8r[u|OUg$2gh~mjxZ(q6",
+                        "inputs": {
+                          "VALUE-0": {
+                            "block": {
+                              "type": "GetCapturePoint",
+                              "id": "!TmM.E1$a}0tXSh0Scw|",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "MCOMsItem",
+                                    "id": "Pg$5F`eUZ{c^FafuU}mr",
+                                    "fields": {
+                                      "VALUE-0": "MCOMs",
+                                      "VALUE-1": "B"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "VALUE-1": {
+                            "block": {
+                              "type": "CreateVector",
+                              "id": "VIBjoDz6*2wH)5eT{=sN",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": "|DH3pE?TpW`;AN4Y.o.$",
+                                    "fields": {
+                                      "NUM": 8
+                                    }
+                                  }
+                                },
+                                "VALUE-1": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": "t{jRStC$bFzN!9Y9%Wi-",
+                                    "fields": {
+                                      "NUM": 105
+                                    }
+                                  }
+                                },
+                                "VALUE-2": {
+                                  "block": {
+                                    "type": "Number",
+                                    "id": "|cg,Nqr_125l@Kw+Ixd(",
+                                    "fields": {
+                                      "NUM": 753
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "VALUE-2": {
+                            "block": {
+                              "type": "Number",
+                              "id": "ON`eXv@g0+)o!O/ro5FK",
+                              "fields": {
+                                "NUM": 0
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "Teleport",
+                            "id": "4bGEQ[_;S.F;2:%}Z:Ul",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "GetCapturePoint",
+                                  "id": "2XK3]NS.b0WPi/oARh+!",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "MCOMsItem",
+                                        "id": "#m=niLP/3Eh$ekpTsOZ$",
+                                        "fields": {
+                                          "VALUE-0": "MCOMs",
+                                          "VALUE-1": "C"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "CreateVector",
+                                  "id": "gWxb[,;3`+=J4h}}oUM=",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": "Y{dEEy5KHV={15tQ/~%[",
+                                        "fields": {
+                                          "NUM": 8
+                                        }
+                                      }
+                                    },
+                                    "VALUE-1": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": "8=7b/J5z^p1^u2T/x6EF",
+                                        "fields": {
+                                          "NUM": 105
+                                        }
+                                      }
+                                    },
+                                    "VALUE-2": {
+                                      "block": {
+                                        "type": "Number",
+                                        "id": "_F[pg$nj.QLr=sBF0}Z:",
+                                        "fields": {
+                                          "NUM": 754
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "VALUE-2": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "q!CcW!80i@KogV;)C*q?",
+                                  "fields": {
+                                    "NUM": 0
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "Teleport",
+                                "id": "L/VvSmv2rr!03PMz)4tV",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "GetCapturePoint",
+                                      "id": "R*KiKXc/#EttF)kuE,K{",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "MCOMsItem",
+                                            "id": "7MC5pC:,r]|r7k`VrhO_",
+                                            "fields": {
+                                              "VALUE-0": "MCOMs",
+                                              "VALUE-1": "D"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "VALUE-1": {
+                                    "block": {
+                                      "type": "CreateVector",
+                                      "id": "xrABhJVfl6-{7hO$v}*L",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "WdHJ^O4zF#pg;9|N2p2-",
+                                            "fields": {
+                                              "NUM": 9
+                                            }
+                                          }
+                                        },
+                                        "VALUE-1": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "bF[d2)K?ZFxQV.%7c=ni",
+                                            "fields": {
+                                              "NUM": 105
+                                            }
+                                          }
+                                        },
+                                        "VALUE-2": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "qj=S3HR7ByAh8d!fGhf}",
+                                            "fields": {
+                                              "NUM": 752
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "VALUE-2": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": ":T7dTzJ^bijQAO!am.Qp",
+                                      "fields": {
+                                        "NUM": 0
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "Teleport",
+                                    "id": "_zE7WEJOk{1=F$uhlg{I",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "GetCapturePoint",
+                                          "id": "vcf[l^2FwWl^:@~_G~Az",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "MCOMsItem",
+                                                "id": "]?#8r2w4]fzqM=dhaN+a",
+                                                "fields": {
+                                                  "VALUE-0": "MCOMs",
+                                                  "VALUE-1": "E"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "VALUE-1": {
+                                        "block": {
+                                          "type": "CreateVector",
+                                          "id": "l)$-gTzPlcthAiivWlf_",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "Number",
+                                                "id": "w^N)|zof9_Fn21mK,8/r",
+                                                "fields": {
+                                                  "NUM": 9
+                                                }
+                                              }
+                                            },
+                                            "VALUE-1": {
+                                              "block": {
+                                                "type": "Number",
+                                                "id": "^X4p9{c8Bs5}Xj7w{GN=",
+                                                "fields": {
+                                                  "NUM": 105
+                                                }
+                                              }
+                                            },
+                                            "VALUE-2": {
+                                              "block": {
+                                                "type": "Number",
+                                                "id": "RR~q[yLq-Fb.S9i8MO~z",
+                                                "fields": {
+                                                  "NUM": 753
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "VALUE-2": {
+                                        "block": {
+                                          "type": "Number",
+                                          "id": "qzHWq9QxETH$XC(dU]Xl",
+                                          "fields": {
+                                            "NUM": 0
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "next": {
+                                      "block": {
+                                        "type": "Teleport",
+                                        "id": "!6P475MinReEEyee?|~H",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "GetCapturePoint",
+                                              "id": "jBK)fCO)!;fkgfk=18?~",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "MCOMsItem",
+                                                    "id": "`(lI/Y+#ic$44UGLulH5",
+                                                    "fields": {
+                                                      "VALUE-0": "MCOMs",
+                                                      "VALUE-1": "F"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "VALUE-1": {
+                                            "block": {
+                                              "type": "CreateVector",
+                                              "id": "?Wq|)ROv0?l/ci[7ePh4",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "h%*rHzs*ls)fIn-b8ImK",
+                                                    "fields": {
+                                                      "NUM": 9
+                                                    }
+                                                  }
+                                                },
+                                                "VALUE-1": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "$m-E.D@3G1jZ^EB;bQF~",
+                                                    "fields": {
+                                                      "NUM": 105
+                                                    }
+                                                  }
+                                                },
+                                                "VALUE-2": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "UeLnyYE^~DGcY#-qTywJ",
+                                                    "fields": {
+                                                      "NUM": 754
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "VALUE-2": {
+                                            "block": {
+                                              "type": "Number",
+                                              "id": "rKd~@Spu,ibVG2;Dm_JG",
+                                              "fields": {
+                                                "NUM": 0
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "next": {
+                                          "block": {
+                                            "type": "Teleport",
+                                            "id": "UjKb`0mPLK{]5)Bx6E$?",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "GetCapturePoint",
+                                                  "id": "xrKN(/rW~5HN4wj?,`|P",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "MCOMsItem",
+                                                        "id": "F,x/V3W4%[2;Sbw|BcSB",
+                                                        "fields": {
+                                                          "VALUE-0": "MCOMs",
+                                                          "VALUE-1": "G"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "VALUE-1": {
+                                                "block": {
+                                                  "type": "CreateVector",
+                                                  "id": "AMcLBYv9uj8;+x[+]J#x",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": "6{nuUu1js)J(KMs(.wzJ",
+                                                        "fields": {
+                                                          "NUM": 10
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-1": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": "{j~b*L7Z0G90G?p:?(yl",
+                                                        "fields": {
+                                                          "NUM": 105
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-2": {
+                                                      "block": {
+                                                        "type": "Number",
+                                                        "id": "zodR!c~^eQIK,q^5g=%D",
+                                                        "fields": {
+                                                          "NUM": 753
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "VALUE-2": {
+                                                "block": {
+                                                  "type": "Number",
+                                                  "id": "w6W|{(w4lL_t=GvJDLV*",
+                                                  "fields": {
+                                                    "NUM": 0
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "Teleport",
+                                                "id": "-et85V1RGI/n@LF{J;}r",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "GetCapturePoint",
+                                                      "id": "=[2~CApD3S~E`|Z=AAvL",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "MCOMsItem",
+                                                            "id": "y7WtnkWA,:IO-D3~a!q+",
+                                                            "fields": {
+                                                              "VALUE-0": "MCOMs",
+                                                              "VALUE-1": "H"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "VALUE-1": {
+                                                    "block": {
+                                                      "type": "CreateVector",
+                                                      "id": "l!w2Y#Hq9U}+yv:f#Wsg",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": "[Ok_qF1%MlRLas(djk2q",
+                                                            "fields": {
+                                                              "NUM": 10
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": "Fk5+_(LODlVWe_c1(70?",
+                                                            "fields": {
+                                                              "NUM": 105
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-2": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": "[5p-77$9!%0AS+Ze-kR%",
+                                                            "fields": {
+                                                              "NUM": 754
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "VALUE-2": {
+                                                    "block": {
+                                                      "type": "Number",
+                                                      "id": "OrDK}I3WAhORaW2M8=#2",
+                                                      "fields": {
+                                                        "NUM": 0
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "next": {
+                                                  "block": {
+                                                    "type": "SetMCOMFuseTime",
+                                                    "id": "+qoS![~5n^DQY,3y@`_F",
+                                                    "inputs": {
+                                                      "VALUE-0": {
+                                                        "block": {
+                                                          "type": "GetCapturePoint",
+                                                          "id": "4[-u1QNWgmkP@Je^`5:p",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "MCOMsItem",
+                                                                "id": "yxHrTH793QabRMamFza6",
+                                                                "fields": {
+                                                                  "VALUE-0": "MCOMs",
+                                                                  "VALUE-1": "A"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "VALUE-1": {
+                                                        "block": {
+                                                          "type": "Number",
+                                                          "id": "fV?AbxN+y/[*_uJ%!YCg",
+                                                          "fields": {
+                                                            "NUM": 10
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "next": {
+                                                      "block": {
+                                                        "type": "SetMCOMFuseTime",
+                                                        "id": "jfL^Ymfq9~D`adj?o8,$",
+                                                        "inputs": {
+                                                          "VALUE-0": {
+                                                            "block": {
+                                                              "type": "GetCapturePoint",
+                                                              "id": "DfnKdYJ%q;G|GKIC_+f}",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "MCOMsItem",
+                                                                    "id": "I|V-A(`!Xq%}1g(csebl",
+                                                                    "fields": {
+                                                                      "VALUE-0": "MCOMs",
+                                                                      "VALUE-1": "B"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "VALUE-1": {
+                                                            "block": {
+                                                              "type": "Number",
+                                                              "id": "RZEBy7Jj-(!fO,NGk+W}",
+                                                              "fields": {
+                                                                "NUM": 20
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "next": {
+                                                          "block": {
+                                                            "type": "SetMCOMFuseTime",
+                                                            "id": "vFe3EFgX3NjOaU3(Ubh.",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "GetCapturePoint",
+                                                                  "id": ";YBug0.L61h12`V[HEH6",
+                                                                  "inputs": {
+                                                                    "VALUE-0": {
+                                                                      "block": {
+                                                                        "type": "MCOMsItem",
+                                                                        "id": "yPsR*;r~C|AwxS%8Fs0a",
+                                                                        "fields": {
+                                                                          "VALUE-0": "MCOMs",
+                                                                          "VALUE-1": "C"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "VALUE-1": {
+                                                                "block": {
+                                                                  "type": "Number",
+                                                                  "id": "^P4{3SUs|yAhLb(]dTV=",
+                                                                  "fields": {
+                                                                    "NUM": 30
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "next": {
+                                                              "block": {
+                                                                "type": "SetMCOMFuseTime",
+                                                                "id": "HV`9*NZ.AVsf*WbdIIgo",
+                                                                "inputs": {
+                                                                  "VALUE-0": {
+                                                                    "block": {
+                                                                      "type": "GetCapturePoint",
+                                                                      "id": "~P;cX~3E;W(5+5(EOex_",
+                                                                      "inputs": {
+                                                                        "VALUE-0": {
+                                                                          "block": {
+                                                                            "type": "MCOMsItem",
+                                                                            "id": "EIlclJa#=6sve^04~%|f",
+                                                                            "fields": {
+                                                                              "VALUE-0": "MCOMs",
+                                                                              "VALUE-1": "D"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "VALUE-1": {
+                                                                    "block": {
+                                                                      "type": "Number",
+                                                                      "id": "9S%di(i0LdBjfq;K(TI*",
+                                                                      "fields": {
+                                                                        "NUM": 10
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "next": {
+                                                                  "block": {
+                                                                    "type": "SetMCOMFuseTime",
+                                                                    "id": "Cx+1}$^f@,i{jOCss8ZM",
+                                                                    "inputs": {
+                                                                      "VALUE-0": {
+                                                                        "block": {
+                                                                          "type": "GetCapturePoint",
+                                                                          "id": "?kr.ZGFC4.+bxm0WiVvc",
+                                                                          "inputs": {
+                                                                            "VALUE-0": {
+                                                                              "block": {
+                                                                                "type": "MCOMsItem",
+                                                                                "id": "t!hXL64m)q3BGA]wx-gw",
+                                                                                "fields": {
+                                                                                  "VALUE-0": "MCOMs",
+                                                                                  "VALUE-1": "E"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "VALUE-1": {
+                                                                        "block": {
+                                                                          "type": "Number",
+                                                                          "id": "2HJL$cvU|fXoOkFD;MpD",
+                                                                          "fields": {
+                                                                            "NUM": 20
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "next": {
+                                                                      "block": {
+                                                                        "type": "SetMCOMFuseTime",
+                                                                        "id": "a69:5m3=yDa[[-Wu8?#V",
+                                                                        "inputs": {
+                                                                          "VALUE-0": {
+                                                                            "block": {
+                                                                              "type": "GetCapturePoint",
+                                                                              "id": "?p!5pMCuJ]F}mNSibU=o",
+                                                                              "inputs": {
+                                                                                "VALUE-0": {
+                                                                                  "block": {
+                                                                                    "type": "MCOMsItem",
+                                                                                    "id": "bpn`CyBq.g@/BiuDnZ22",
+                                                                                    "fields": {
+                                                                                      "VALUE-0": "MCOMs",
+                                                                                      "VALUE-1": "F"
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          "VALUE-1": {
+                                                                            "block": {
+                                                                              "type": "Number",
+                                                                              "id": "-zCAhW{)dT[t@j(nv}W~",
+                                                                              "fields": {
+                                                                                "NUM": 30
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "CurrentMCOM",
+      "id": "Af/]xC-27o?f.4N7|f[f",
+      "type": "TeamId"
+    },
+    {
+      "name": "position",
+      "id": "`7G@0jRY2`Mwo,-+*jy)",
+      "type": "MCOM"
+    },
+    {
+      "name": "position2",
+      "id": "pj8Z06CWBC{PrXrYkjz(",
+      "type": "MCOM"
+    },
+    {
+      "name": "position3",
+      "id": "I#rAxSGot%7Xh-hz$c*.",
+      "type": "MCOM"
+    },
+    {
+      "name": "counter",
+      "id": "ZkzvNdrB#}n!/Nu}98R+",
+      "type": "Global"
+    },
+    {
+      "name": "teamID",
+      "id": "q/o?dQ?%@|yWvxMBZrQz",
+      "type": "Global"
+    },
+    {
+      "name": "MCOMSLocations",
+      "id": ";[?H$53Z`2tcgE(VMJ#|",
+      "type": "Global"
+    }
+  ]
+}
